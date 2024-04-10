@@ -1,7 +1,7 @@
 
 # Project Title
 
-Resturant Website-MERN stack
+## Restaurant Reservation Website
 
 ## Description
 
