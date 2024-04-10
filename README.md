@@ -7,9 +7,9 @@ Resturant Website-MERN stack
 
 This project is a web application for a restaurant that allows users to reserve tables at a particular date and time. The main functionality of the website includes:
 
-1)Reservation System: Users can make reservations by providing their name, email, phone number, desired date, and time.
-2)Data Storage: Reservation details are stored in a MongoDB database for future reference.
-3)User Interface: An intuitive and user-friendly interface for making reservations and viewing available time slots.
+- **Reservation System**: Users can make reservations by providing their name, email, phone number, desired date, and time.
+- **Data Storage**: Reservation details are stored in a MongoDB database for future reference.
+- **User Interface**: An intuitive and user-friendly interface for making reservations and viewing available time slots.
 
 ## Table of Contents
 
@@ -32,6 +32,25 @@ cd Project01
 npm install
 npmrun dev
 ```
+
+## Technologies Used
+
+- **Frontend**:
+  - HTML5
+  - CSS3
+  - JavaScript (React.js)
+  - React Router
+  - Axios (for making HTTP requests)
+  - React Icons (for icons)
+  - React Hot Toast (for notifications)
+
+- **Backend**:
+  - Node.js
+  - Express.js
+  - MongoDB (Mongoose for object modeling)
+  - CORS (for Cross-Origin Resource Sharing)
+  - Dotenv (for environment variables)
+  - Express Validator (for request validation)
 
 ## Usage
 1- Open the website in your web browser.
