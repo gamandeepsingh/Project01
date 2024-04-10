@@ -17,9 +17,10 @@ const Resrvation = () => {
         e.preventDefault();
         try {
           const { data } = await axios.post(
-            "https://resturant-khaki-pi.vercel.app/api/v1/reservation/send",
+            "https://resturant-okmuydh1v-gamandeep-singhs-projects.vercel.app/api/v1/reservation/send",
             { firstName, lastName, email, phone, date, time },
             {
+              
               headers: {
                 "Content-Type": "application/json",
               },
