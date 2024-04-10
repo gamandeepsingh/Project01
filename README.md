@@ -53,16 +53,16 @@ npmrun dev
   - Express Validator (for request validation)
 
 ## Usage
-1- Open the website in your web browser.
-2- Navigate to the reservation section.
-3- Fill out the reservation form with your details and desired date/time.
-4- Submit the form to make a reservation.
-5- View and manage reservations in the backend dashboard.
+1. Open the website in your web browser.
+2. Navigate to the reservation section.
+3. Fill out the reservation form with your details and desired date/time.
+4. Submit the form to make a reservation.
+5. View and manage reservations in the backend dashboard.
 
 ## Contributing
 
 Contributions to this project are welcome! To contribute, follow these steps:
 
-1- Fork the repository on GitHub.
-2- Make changes to your forked repository.
-3- Submit a pull request to the main repository, explaining the changes you've made.
+1. Fork the repository on GitHub.
+2. Make changes to your forked repository.
+3. Submit a pull request to the main repository, explaining the changes you've made.
