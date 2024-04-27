@@ -1,11 +1,11 @@
 
 # Project Title
 
-## Restaurant Reservation Website
+## Janसुरक्षा
 
 ## Description
 
-This project is a web application for a restaurant that allows users to reserve tables at a particular date and time. The main functionality of the website includes:
+This project is a web application for a Janसुरक्षा that allows users to reserve tables at a particular date and time. The main functionality of the website includes:
 
 - **Reservation System**: Users can make reservations by providing their name, email, phone number, desired date, and time.
 - **Data Storage**: Reservation details are stored in a MongoDB database for future reference.
