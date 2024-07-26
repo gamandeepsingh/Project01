@@ -15,8 +15,8 @@
 /**********************************************************************************************************************/
 nav {
   display: flex;
-  max-width: 1500px;
-  min-width: 1500px;
+  max-width: 1280px;
+  min-width: 1280px;
   padding: 25px 10px 40px 10px;
   margin-bottom: 25px;
   justify-content: space-between;
@@ -27,7 +27,7 @@ nav {
 nav::after {
   content: "";
   position: absolute;
-  height: 0.6px;
+  /* height: 0.6px; */
   bottom: 0;
   left: 0;
   width: 100%;
@@ -327,14 +327,16 @@ nav svg {
 .about {
   display: flex;
   min-height: 100vh;
+  width: 100svw;
   justify-content: center;
   align-items: center;
   background-color: #f9fbf2;
 }
 .about .container {
-  max-width: 1500px;
-  min-width: 1500px;
+  max-width: 1200px;
+  min-width: 1200px;
   display: flex;
+  justify-content: center;
 }
 .about .container .banner {
   flex: 1;
@@ -443,8 +445,8 @@ nav svg {
   align-items: center;
 }
 .qualities .container {
-  min-width: 1500px;
-  max-width: 1500px;
+  min-width: 1200px;
+  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -515,8 +517,8 @@ nav svg {
   padding: 50px 20px;
 }
 .menu .container {
-  max-width: 1500px;
-  min-width: 1500px;
+  max-width: 1280px;
+  min-width: 1280px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -611,8 +613,8 @@ nav svg {
   padding: 20px;
 }
 .team .container {
-  max-width: 1500px;
-  min-width: 1500px;
+  max-width: 1280px;
+  min-width: 1280px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -694,8 +696,8 @@ nav svg {
   min-height: 80vh;
 }
 .who_are_we .container {
-  max-width: 1500px;
-  min-width: 1500px;
+  max-width: 1290px;
+  min-width: 1280px;
   display: flex;
 }
 .who_are_we .container .text_banner {
@@ -783,8 +785,8 @@ footer {
   padding: 20px 20px 10px 20px;
 }
 footer .container {
-  max-width: 1500px;
-  min-width: 1500px;
+  max-width: 1280px;
+  min-width: 1280px;
   display: flex;
   flex-direction: column;
 }
@@ -862,8 +864,8 @@ footer .container .banner .right {
   background-position: right;
 }
 .reservation .container {
-  max-width: 1500px;
-  min-width: 1500px;
+  max-width: 1280px;
+  min-width: 1280px;
   display: flex;
 }
 .reservation .container .banner {
@@ -1052,7 +1054,7 @@ footer .container .banner .right {
   background-position: right;
 }
 .notFound .container {
-  max-width: 1500px;
+  max-width: 1280px;
   text-align: center;
 }
 .notFound .container img {
