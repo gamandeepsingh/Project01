@@ -9,10 +9,20 @@ dotenv.config();
 
 const app = express();
 
+// Specify the allowed origin instead of using '*'
+const allowedOrigins = ['https://dineme.vercel.app'];
+
 app.use(cors({
-    origin: "*",
-    credentials: true
+    origin: (origin, callback) => {
+        if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+            callback(null, origin);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
+    credentials: true 
 }));
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 

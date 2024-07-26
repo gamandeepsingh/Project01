@@ -12,8 +12,7 @@ const Resrvation = () => {
     const [time,setTime] = useState("")
     const [date,setDate] = useState(0)
     const navigate = useNavigate()
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
-    console.log(backendUrl);
+    const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
     const handleReservation = async(e) =>{
         e.preventDefault();
