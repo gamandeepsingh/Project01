@@ -9,8 +9,7 @@ const app = express()
 dotenv.config()
 
 app.use(cors({
-    origin:"https://dineme.vercel.app/",
-    methods:["POST"],
+    origin:"*",
     credentials:true
 }))
 app.use(express.json())
