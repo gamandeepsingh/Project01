@@ -6,9 +6,10 @@ import { errorMiddleware } from "./error/error.js"
 import reservartionRouter from "./routes/reservationRoute.js"
 
 const app = express()
-dotenv.config({path:"./config/config.env"})
+dotenv.config()
+
 app.use(cors({
-    origin:[process.env.FRONTENED_URL],
+    origin:[process.env.FRONTEND_URL],
     methods:["POST"],
     credentials:true
 }))
